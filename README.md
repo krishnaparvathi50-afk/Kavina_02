@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Water Bottle E-commerce (Frontend)
 
 Modern, responsive multi-page frontend demo for a Water Bottle E-commerce platform.
@@ -23,3 +24,6 @@ Tip: For the best experience (and to avoid browser restrictions), serve the fold
 - Cart is stored in `localStorage` (frontend-only).
 - Payments are UI-only (no backend).
 - Includes dark mode toggle, mobile menu, and a subtle animated water background.
+=======
+# Kavina_02
+>>>>>>> 96213ea91b458b31fa8491baa1955fb5e10b5681
