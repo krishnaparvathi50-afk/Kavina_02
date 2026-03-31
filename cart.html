@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cart • HydroMart</title>
+    <meta name="description" content="View cart items and total price." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="HydroMart Home">
+          <span class="brand-badge">H</span>
+          <span>HydroMart</span>
+        </a>
+
+        <nav class="nav-links" id="primaryNav" aria-label="Primary">
+          <a data-nav href="index.html">Home</a>
+          <a data-nav href="products.html">Products</a>
+          <a data-nav href="about.html">About</a>
+          <a data-nav href="contact.html">Contact</a>
+          <a data-nav class="cart-pill" href="cart.html">
+            Cart
+            <span class="badge" id="cartCount">0</span>
+          </a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false">
+            Menu
+          </button>
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">
+            Theme: <span id="themeLabel">Light</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-title">
+        <div>
+          <h2 class="mt-0">Your Cart</h2>
+          <p>Update quantity, remove items, and proceed to checkout.</p>
+        </div>
+      </div>
+
+      <div class="grid two-col">
+        <section id="cartMount"></section>
+
+        <aside class="card" aria-label="Cart summary">
+          <div class="card-pad">
+            <h3 class="mt-0">Summary</h3>
+            <div class="summary">
+              <div class="summary-row"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+              <div class="summary-row"><span>Total</span><strong id="total">$0.00</strong></div>
+              <div class="divider"></div>
+              <a class="btn btn-primary" id="checkoutBtn" href="checkout.html">Proceed to Checkout</a>
+              <a class="btn btn-ghost" href="products.html">Continue Shopping</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand" style="margin-bottom: 0.35rem">
+            <span class="brand-badge" aria-hidden="true">H</span>
+            <span>HydroMart</span>
+          </div>
+          <div class="muted">© <span id="year"></span> HydroMart. Frontend demo.</div>
+        </div>
+        <div class="small-links" aria-label="Footer links">
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cart-page.js"></script>
+  </body>
+</html>

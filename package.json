@@ -1,0 +1,10 @@
+{
+  "name": "hydromart-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "HydroMart water bottle e-commerce frontend (static HTML/CSS/JS).",
+  "scripts": {
+    "start": "python -m http.server 5500 --bind 127.0.0.1"
+  }
+}
+

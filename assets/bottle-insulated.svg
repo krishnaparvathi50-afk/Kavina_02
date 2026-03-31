@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" role="img" aria-label="Insulated water bottle illustration">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7ecff"/>
+      <stop offset=".55" stop-color="#c1ddff"/>
+      <stop offset="1" stop-color="#f8fbff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a84ff"/>
+      <stop offset="1" stop-color="#7dffbd"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M148 62c0-18 14-32 32-32h60c18 0 32 14 32 32v48H148V62z" fill="#0f172a" opacity=".88"/>
+    <path d="M150 110h120c28 0 50 22 50 50v246c0 60-48 108-108 108h-4c-60 0-108-48-108-108V160c0-28 22-50 50-50z" fill="url(#shell)" stroke="url(#accent)" stroke-opacity=".40" stroke-width="4"/>
+    <path d="M150 182c30 16 76 26 120 26s90-10 120-26v190c0 52-44 96-96 96h-48c-52 0-96-44-96-96V182z" fill="#0a84ff" opacity=".08"/>
+    <rect x="154" y="246" width="232" height="92" rx="22" fill="url(#accent)" opacity=".14"/>
+    <path d="M186 292h168" stroke="#0f172a" stroke-opacity=".16" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
+

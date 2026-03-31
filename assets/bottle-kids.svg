@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" role="img" aria-label="Kids water bottle illustration">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#d7fbff"/>
+      <stop offset="1" stop-color="#f7fbff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c3ff"/>
+      <stop offset="1" stop-color="#7dffbd"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M150 70c0-16 12-28 28-28h64c16 0 28 12 28 28v46H150V70z" fill="#22c3ff" opacity=".22" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M152 116h116c26 0 48 22 48 48v238c0 64-52 116-116 116s-116-52-116-116V164c0-26 22-48 48-48z" fill="url(#body)" stroke="url(#accent)" stroke-opacity=".45" stroke-width="4"/>
+    <rect x="160" y="254" width="220" height="84" rx="22" fill="#7dffbd" opacity=".18"/>
+    <circle cx="200" cy="296" r="14" fill="#0a84ff" opacity=".28"/>
+    <circle cx="240" cy="296" r="14" fill="#22c3ff" opacity=".26"/>
+    <circle cx="280" cy="296" r="14" fill="#7dffbd" opacity=".26"/>
+    <path d="M206 328h140" stroke="#0f172a" stroke-opacity=".12" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
+
