@@ -12,6 +12,12 @@ Modern, responsive multi-page frontend demo for a Water Bottle E-commerce platfo
 - `about.html` (About)
 - `contact.html` (Contact)
 
+
+
+
+
+
+
 ## How to run
 Open `index.html` in a browser.
 
